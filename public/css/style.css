@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+.display {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #a13b94, #102c4d);
+}
+
+.background-img {
+    background-image: url("../img/mitchell-luo-FWoq_ldWlNQ-unsplash.jpg");
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.quote-container {
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+    line-height: 1.6;
+    border: 2px solid white;
+    padding: 5%;
+    margin:5%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.quote-text {
+    display: block;
+    font-style: italic;
+}
+
+.author-text {
+    font-size: 1rem;
+    font-style: italic;
+}
